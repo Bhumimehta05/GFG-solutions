@@ -1,13 +1,12 @@
-int search(int arr[], int n, int x) {
-    int index=-1;
+int search(int arr[], long long n, long long x) {
     
-    for(int i=0;i<n;i++){
+    long long index=-1;
+    
+    for(long long i=0;i<n;i++){
         
         if(arr[i]==x){
-          index=i;
-          break;
-        }
-        
+        index=i;
+        break;}
     }
     
     return index;
